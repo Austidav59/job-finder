@@ -8,16 +8,16 @@ const Home = () => {
     const router = useRouter();
 
     return (
-        <SafeAreaView style={{flez:1, backgroundColor: COLORS.lightWhite}}>
+        <SafeAreaView style={{flex:1, backgroundColor: COLORS.lightWhite}}>
             <Stack.Screen
                 options = {{
                     headStyle: {backgroundColor: COLORS.lightWhite},
                     headerShadowVisible: false,
                     headerLeft: () => (
-                        <ScreenHeaderBtn iconUrl={icons.menu} dimensions="60%"/>
+                        <ScreenHeaderBtn iconUrl={icons.menu} dimension="100%"/>
                     ),
                     headerRight: () => (
-                        <ScreenHeaderBtn iconUrl={icons.profile} dimensions="100%"/>
+                        <ScreenHeaderBtn iconUrl={images.profile} dimension="100%"/>
                     ),
                     headerTitle: ""
                 }}
